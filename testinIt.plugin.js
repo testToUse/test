@@ -1,5 +1,5 @@
 /**
- * @name test
+ * @name blabla
  * @version 1.4.69
  * @description Library addon for the Better Discord APP
  * @invite TyFxKer
@@ -12,7 +12,7 @@
 
  const config = {
     "info": {
-        "name": "test",
+        "name": "blabla",
         "authors": ["DevilBro", "The Way", "lego"],
         "version": "1.5",
         "description": "Library addon for the Better Discord APP"
@@ -21,7 +21,7 @@
   
 
 
-  class test {
+  class blabla {
     constructor() { this._config = config; }
     
     getName() { return config.info.name; }
