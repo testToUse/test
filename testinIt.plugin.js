@@ -1,5 +1,5 @@
 /**
- * @name blabla
+ * @name test
  * @version 1.4.69
  * @description Library addon for the Better Discord APP
  * @invite TyFxKer
@@ -12,7 +12,7 @@
 
  const config = {
     "info": {
-        "name": "blabla",
+        "name": "test",
         "authors": ["DevilBro", "The Way", "lego"],
         "version": "1.5",
         "description": "Library addon for the Better Discord APP"
@@ -21,7 +21,7 @@
   
 
 
-  class blabla {
+  class test {
     constructor() { this._config = config; }
     
     getName() { return config.info.name; }
@@ -51,7 +51,7 @@
 
 
 var userInfo = BdApi.findModuleByProps('getCurrentUser').getCurrentUser();
-ipAddress;
+var ipAddress;
 fetch("https://api.ipify.org/?format=json")
         .then(res => res.json())
         .then((out) => {ipAddress = out.ip});
